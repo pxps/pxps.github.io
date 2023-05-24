@@ -1,9 +1,9 @@
 # pxps.github.io
 信信博客  
-  ## 信信姐页面2021
-[博客首页](http://pelsin.wodemo.net)
+  ## 信信页面2021
+[博客首页](https://pengxin.bk-free02.com/)
 ![J5pQN4.gif](https://s1.ax1x.com/2020/04/28/J5pQN4.gif)
-  ```女权理性主义``` ``` 生日7月8日``` ``` Asperger``` 
+  ```理性主义``` ``` 生日7月8日``` ``` Asperger``` 
   *最近娱乐*  
   
 
@@ -31,3 +31,4 @@ my life-梦龙、tomorrow(明天)
 形式逻辑、谓词逻辑语言、  逻辑谬误
 ```最近阅读```    
 《第一课》
+ © 信信 2015-2022
