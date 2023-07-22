@@ -1,9 +1,32 @@
+```html
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>信信博客</title>
-<frameset framespacing="0" border="0" rows="0" frameborder="0">
-<frame name="main" src="http://pengxin.bk-free02.com/" scrolling="auto" noresize></frameset>
+    <title>跳转页面</title>
+
+    <script>
+        // JavaScript代码用于自动跳转并根据客户端设备隐藏URL
+        var ua = navigator.userAgent.toLowerCase();
+        var isMobile = /(iphone|ipod|ipad|android|windows ce|blackberry|palm|symbian)/.test(ua);
+
+        if (isMobile){
+            window.location.href = "https://pengxin.bk-free02.com"; // 手机设备跳转
+        } else {
+            window.location.href = "https://pengxin.bk-free02.com"; // PC设备跳转（默认）
+        }
+    </script>
+
+    <style>
+        /* CSS样式用于隐藏URL */
+        #redirectDiv {
+            display: none;
+        }
+    </style>
 </head>
-<body></body>
+<body>
+    <div id="redirectDiv">
+        <p>正在跳转...</p>
+    </div>
+</body>
 </html>
+```
