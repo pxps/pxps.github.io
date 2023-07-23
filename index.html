@@ -1,32 +1,10 @@
-```html
-<!DOCTYPE html>
 <html>
 <head>
-    <title>跳转页面</title>
-
-    <script>
-        // JavaScript代码用于自动跳转并根据客户端设备隐藏URL
-        var ua = navigator.userAgent.toLowerCase();
-        var isMobile = /(iphone|ipod|ipad|android|windows ce|blackberry|palm|symbian)/.test(ua);
-
-        if (isMobile){
-            window.location.href = "https://pengxin.bk-free02.com"; // 手机设备跳转
-        } else {
-            window.location.href = "https://pengxin.bk-free02.com"; // PC设备跳转（默认）
-        }
-    </script>
-
-    <style>
-        /* CSS样式用于隐藏URL */
-        #redirectDiv {
-            display: none;
-        }
-    </style>
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
-<body>
-    <div id="redirectDiv">
-        <p>正在跳转...</p>
-    </div>
-</body>
+<frameset border="0" rows="100%,*" cols="100%" frameborder="no">
+  <frame name="TopFrame" scrolling="yes" noresize src="https://pengxin.bk-free02.com">
+  <frame name="BottomFrame" scrolling="no" noresize>
+  <noframes></noframes>
+</frameset>
 </html>
-```
